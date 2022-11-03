@@ -1,0 +1,14 @@
+This program requires python3 to be installed in the host computer
+
+First download the folder, and install python. With the installation of python, all the packages used are shipped with python by default
+
+After installing python, run the command, python3 hngHash.py
+
+You will need a csv file in the same directory as that of this scripts.
+
+For the input, use the filepath that look like this: 
+c:/Users/Henry/Desktop/t/HNGi9 CSV FILE.csv for the csv file path and 
+c:/Users/Henry/Desktop/t/sample(where the json files will be stored) for the json file path.
+
+After the input above, the program will generate as many json files as present in the provided csv file and calculate sha256 for each json file. 
+Then a new csv file containing all the data including our hash is generated in the current directory
